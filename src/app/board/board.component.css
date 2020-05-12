@@ -1,0 +1,24 @@
+main {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px 200px;
+      grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+app-square {
+  border: 1px #5b037e solid;
+  height: 200px;
+}
+
+nb-layout-header h1,
+nb-layout-column,
+nb-layout-footer {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+/*# sourceMappingURL=board.component.css.map */
